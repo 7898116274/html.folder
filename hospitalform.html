@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AS Hospital form</title>
+        <link type="text/css" href="style2.css">
+    </head>
+    <body>
+        <form>
+            <h1>AS HOSPITAL</h1>
+            <h4>LN Medical College and AS Hospital, J.K. Town, Sarvadharam C-Sector, Kolar Road, Bhopal-462042, Madhya Pradesh, India</h4>
+            <fieldset>
+                <legend><i>Personal Information</i></legend>
+                <label>Name</label>&nbsp;
+                <input type="text" placeholder="first name">&nbsp; <input type="text" placeholder="Last name"><br><br>
+                <label>gender:-</label>&nbsp;
+                male:<input type="radio" name="gender">
+                female:<input type="radio" name="gender">
+                other:<input type="radio" name="gender"><br><br>
+                <label>age</label>
+                <input type="number"><br><br> 
+                <label>Address</label>
+                <input type="text" placeholder="house no.">&nbsp;
+                <input type="text" placeholder="Society"><br><br>
+                <label>Phone no.</label>
+                <input type="number" placeholder="enter Phone no.">
+                <label for="Ani">Marital Status</label>&nbsp;<!--problem in selecting-->
+                married:<input type="checkbox" id="Ani">
+                unmarried:<input type="checkbox" id="Ani"><br><br>
+                <label for="">city</label>
+                <select id="">
+                    <option>Bhopal</option>
+                    <option>Indore</option>
+                    <option>Gwalior</option>
+                    <option>Narmadapuram</option>
+                    <option>Itarsi</option>
+                </select>
+              </fieldset>
+              <fieldset>
+                <legend>Medical detail</legend>
+                <label>Disease caused</label>
+                <select>
+                    <option>asthma:Immunologists</option>
+                    <option>high blood pressure:Cardiologists</option>
+                    <option>skin allergies:Dermatologists</option>
+                    <option>thyroid problems:Endocrinologists</option>
+                    <option>stomach:Gastroenterologists</option><br><br>
+                </select><br><br>
+                <label>Dr. Discription</label><br>
+                <textarea  roes="13" cols="50" placeholder="priscription"></textarea>
+              </fieldset>
+        </form>
+    </body>
+</html>
